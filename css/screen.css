@@ -113,6 +113,10 @@ h3 {
     margin: 0 0 24px;
 }
 
+p {
+    color: #8EC7FF;
+}
+
 h4,
 h5,
 h6 {
@@ -265,7 +269,6 @@ a {
 
 .o-layout {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -387,6 +390,7 @@ a {
   #COMPONENTS
 \*------------------------------------*/
 
+
 .c-header__logo {
     height: 32px;
 }
@@ -398,7 +402,7 @@ a {
 .c-header__nav {
     text-transform: uppercase;
     letter-spacing: 1px;    /* Extra ruimte tss de letters */
-    margin-top: 36px;
+    margin-top: 32px;
 }
 
 .c-nav__item {
