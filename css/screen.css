@@ -178,6 +178,14 @@ hr {
 
 a {
     transition: all .1s ease-in-out;
+    color: #1195f7;
+}
+
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    color: #8ec7ff;
 }
 
 /*------------------------------------*\
@@ -452,16 +460,33 @@ a {
 }
 
 /*
-    Components: CTA
+    Components: CTA button
 */
-.c-btn--cta {
-    background-color: none;
+
+.c-btn-cta {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 24px;
+    padding: 16px 32px;
+    background: linear-gradient(to right, #033AA7 0%, #0053FB 51%, #0053FB 100%);
+    border: 1px solid rgba(142, 199, 255, 0.2);
+    box-shadow: 0 0 10px rgba(142, 199, 255, 0.2);
+    transition: 0.5s;
+    background-size: 200% auto;
 }
 
-@media (min-width: 768px) {
-    .c-btn--cta {
-        background-color: none;
-    }
+.c-btn-cta,
+.c-btn-cta:visited,
+.c-btn-cta:active {
+    color: #DBEDFF;
+}
+
+.c-btn-cta:hover {
+    color: #fff;
+    background-position: right center;
 }
 
 
